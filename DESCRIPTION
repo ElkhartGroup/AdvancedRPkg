@@ -1,0 +1,16 @@
+Package: AdvancedRPkg
+Title: An Example R Package for the Book Advanced R
+Version: 0.0.0.9000
+Authors@R: c(
+  person("Matt", "Wiley", email = "matt@elkhartgroup.com", role = c("aut")),
+  person("Joshua F.", "Wiley", email = "josh@elkhartgroup.com", role = c("aut", "cre")),
+  person("Elkhart Group Ltd.", role = "cph")
+  )
+Description: This package will demonstrate the basics of an R
+  package including documentation and tests.
+Depends: R (>= 3.3.1)
+Suggests:
+  testthat
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
