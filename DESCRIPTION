@@ -7,10 +7,15 @@ Authors@R: c(
   person("Elkhart Group Ltd.", role = "cph")
   )
 Description: This package will demonstrate the basics of an R
-  package including documentation and tests.
-Depends: R (>= 3.3.1)
+    package including documentation and tests.
+Depends:
+    R (>= 3.3.1)
+Imports:
+    methods,
+    ggplot2
 Suggests:
-  testthat
+    testthat
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 5.0.1
